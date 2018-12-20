@@ -1,3 +1,3 @@
 ## Bash Profile Scripts
 
-This scripts can be executed in your .bash\_profile 
+This scripts can be executed in your _.bash\_profile_
