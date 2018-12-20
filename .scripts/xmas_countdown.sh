@@ -1,7 +1,7 @@
 #!/bin/bash
 
 for i in {10..1}; do
-  if [[ $(echo "24 Dezember $(gdate +"%Y")") =~ $(gdate -d "now + $i days" +"%d %B %Y") ]]; then
+  if [[ $(echo "24 $(gdate +"%B %Y")") =~ $(gdate -d "now + $i days" +"%d %B %Y") ]]; then
     echo "$i $([ $i -eq 1 ] && echo "day" || echo "days") until X-Mas"
   fi
 done
